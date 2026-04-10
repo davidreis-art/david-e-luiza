@@ -14,7 +14,6 @@ body {
     text-align: center;
 }
 
-/* Fundo mágico */
 body::before {
     content: "";
     position: fixed;
@@ -30,7 +29,6 @@ body::before {
     to {opacity: 1;}
 }
 
-/* Nome */
 h1 {
     font-size: 50px;
     margin-top: 40px;
@@ -50,7 +48,6 @@ h1 {
     margin-top: 20px;
 }
 
-/* Fotos */
 .fotos {
     display: flex;
     justify-content: center;
@@ -66,7 +63,6 @@ h1 {
     object-fit: cover;
 }
 
-/* Corações */
 .heart {
     position: absolute;
     animation: cair 5s linear infinite;
@@ -90,6 +86,7 @@ h1 {
     </p>
 </div>
 
+<!-- 🎵 Música (CORRIGIDO) -->
 <audio controls autoplay loop>
     <source src="musica.mp3" type="audio/mpeg">
 </audio>
